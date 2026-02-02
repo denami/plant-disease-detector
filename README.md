@@ -111,7 +111,7 @@ python predict.py
 
 ## 🌐 Использование модели
 ```bash
-python app.py
+uvicorn app:app --reload --port 8000
 ```
 
 ![Привер вывода лога запуска WEB сервера](images/0004.png)
